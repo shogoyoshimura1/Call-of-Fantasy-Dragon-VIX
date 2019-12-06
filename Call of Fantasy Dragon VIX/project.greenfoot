@@ -3,6 +3,7 @@ class.Crosshair.image=\u30EC\u30C6\u30A3\u30AF\u30EB.png
 class.Dragon.image=fantasy_dragon.png
 class.MyWorld.image=space1.jpg
 class.Wyvern.image=fantasy_dragon_wyvern.png
+<<<<<<< HEAD
 dependency1.from=Crosshair
 dependency1.to=Dragon
 dependency1.type=UsesDependency
@@ -15,6 +16,22 @@ editor.fx.0.x=922
 editor.fx.0.y=13
 height=1047
 package.numDependencies=2
+=======
+<<<<<<< HEAD
+editor.fx.0.height=739
+editor.fx.0.width=816
+editor.fx.0.x=547
+editor.fx.0.y=98
+height=1066
+=======
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
+height=1100
+>>>>>>> 161c190e05406c7f25ec79303945abb019aed75a
+package.numDependencies=0
+>>>>>>> 191deb92809e987530551d9fafd1a59e0bd883be
 package.numTargets=5
 project.charset=UTF-8
 publish.hasSource=false
@@ -45,14 +62,18 @@ target2.width=80
 target2.x=0
 target2.y=0
 target3.height=50
+<<<<<<< HEAD
+target3.name=Dragon
+=======
 target3.name=Wyvern
+>>>>>>> 161c190e05406c7f25ec79303945abb019aed75a
 target3.showInterface=false
 target3.type=ClassTarget
 target3.width=80
 target3.x=0
 target3.y=0
 target4.height=50
-target4.name=Dragon
+target4.name=MyWorld
 target4.showInterface=false
 target4.type=ClassTarget
 target4.width=80
@@ -66,7 +87,11 @@ target5.width=80
 target5.x=0
 target5.y=0
 version=3.0.0
+<<<<<<< HEAD
 width=969
+=======
+width=1936
+>>>>>>> 191deb92809e987530551d9fafd1a59e0bd883be
 world.lastInstantiated=MyWorld
 xPosition=0
 yPosition=0
