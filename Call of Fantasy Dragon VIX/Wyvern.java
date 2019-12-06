@@ -20,7 +20,7 @@ public class Wyvern extends ENEMY
     {
         Math.sin(Math.toRadians(c));
         move((int)c);
-        c++;
+        //c++;
     }
 }
 
