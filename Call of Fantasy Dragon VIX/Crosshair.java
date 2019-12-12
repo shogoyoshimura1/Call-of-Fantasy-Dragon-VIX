@@ -46,6 +46,7 @@ public class Crosshair extends Actor
                     getWorld().removeObject( act ); 
                }
             }
+            
     }    
 }
 
