@@ -14,6 +14,15 @@ public class maketow extends tower
      */
     public void act() 
     {
-        // Add your action code here.
-    }    
-}
+               Actor actor = getOneObjectAtOffset( 0, 0, Dragon.class );
+               Actor act = getOneObjectAtOffset( 0, 0, Wyvern.class );
+               
+               if( actor != null){
+                    getWorld().removeObject( actor ); 
+               }
+               if( act != null){
+                    getWorld().removeObject( act ); 
+               }
+    }
+}    
+
