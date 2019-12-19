@@ -8,7 +8,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Crosshair extends Actor
 {
-    static int count = 0;
+    int count = 0;
     /**
      * Act - do whatever the Crosshair wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
@@ -36,17 +36,16 @@ public class Crosshair extends Actor
             }
             
         if (Greenfoot.isKeyDown("space")){
-               Actor actor = getOneObjectAtOffset( 0, 0, Dragon.class );
-               Actor act = getOneObjectAtOffset( 0, 0, Wyvern.class );
+
+               Actor actor = getOneObjectAtOffset( 0, 0, ENEMY.class );
+               hp++;
+
                
                if( actor != null){
                     getWorld().removeObject( actor ); 
                     count++;
                }
-               if( act != null){
-                    getWorld().removeObject( act );
-                    count++;
-               }
+
             }
             
         getWorld().showText( "撃破数 = " + count, 100, 50 );

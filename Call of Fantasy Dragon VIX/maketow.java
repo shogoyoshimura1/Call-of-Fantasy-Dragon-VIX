@@ -12,6 +12,7 @@ public class maketow extends tower
      * Act - do whatever the maketow wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
+
     public void act() 
     {
                Actor actor = getOneObjectAtOffset( 0, 0, Dragon.class );
@@ -24,5 +25,6 @@ public class maketow extends tower
                     getWorld().removeObject( act ); 
                }
     }
+
 }    
 
