@@ -20,5 +20,9 @@ public class MyWorld extends World
         addObject( new ENEMY(), 300, 200 );
         addObject( new maketow(), 800, 400 );
         addObject( new Crosshair(), 800, 400 );
+        
+        addObject( new image(), 800,450 );
+        
+        
     }
 }

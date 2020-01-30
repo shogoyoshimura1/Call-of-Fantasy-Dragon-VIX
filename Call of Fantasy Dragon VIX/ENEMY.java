@@ -37,6 +37,7 @@ public class ENEMY extends Actor
     public void gene()
     {
 
+            if(ECounter<90){
             x1 = random.nextInt(1600);
             y1 = random.nextInt(600);
             if(x1>800) x1 = 1600; 
@@ -48,5 +49,6 @@ public class ENEMY extends Actor
             
             getWorld().addObject( e[ECounter],x1 , y1 );
             ECounter += 1;
+        }
     }
 }
